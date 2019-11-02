@@ -668,7 +668,7 @@ pub mod prelude {
     pub use crate::coord::{make_partial_axis, RangedDate, RangedDateTime, RangedDuration};
 
     pub use crate::drawing::*;
-    pub use crate::series::{AreaSeries, Histogram, LineSeries, PointSeries};
+    pub use crate::series::{AreaSeries, BarSeries, Histogram, LineSeries, PointSeries};
     pub use crate::style::{
         AsRelative, Color, FontDesc, FontFamily, FontStyle, FontTransform, HSLColor, IntoFont,
         Palette, Palette100, Palette99, Palette9999, PaletteColor, RGBColor, ShapeStyle,
