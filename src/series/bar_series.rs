@@ -100,7 +100,7 @@ where
             let entry = buffer.entry(x).or_insert(Vec::new());
             entry.extend(y);
         }
-        println!("buffer = {:?}", buffer);
+        //println!("buffer = {:?}", buffer);
         self.iter = buffer.into_iter();
         self
     }
@@ -206,7 +206,7 @@ where
         }
 
         if let Some((x, y)) = self.iter.next() {
-            println!("next iteration: {:?}", (&x, &y));
+            //println!("next iteration: {:?}", (&x, &y));
             let nx = BR::next_value(&x);
 
             let y_len = y.len();
